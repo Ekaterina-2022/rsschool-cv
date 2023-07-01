@@ -90,5 +90,5 @@ function calculation() {
 
 ## Real projects (in development)
 
--   [Women Leaders] (http://women-leader.ru/)
+-   [Women Leaders](http://women-leader.ru/)
 -   [Consilium](https://github.com/Ekaterina-2022/Consilium_11.22.git)
