@@ -1,8 +1,8 @@
-body {
-	margin: 0;
-	padding: 0;
-	font-size: 18px;
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
+h1,
 h2,
 h3 {
 	text-transform: uppercase;
@@ -17,26 +17,46 @@ a {
 	text-decoration: none;
 	color: rgb(143, 67, 13);
 }
+.container__style {
+	width: 100%;
+	background-color: beige;
+}
+.navigation {
+	display: flex;
+	list-style: none;
+	width: 100%;
+	justify-content: space-around;
+}
+.navigation__item a {
+	font-size: 24px;
+}
 .container-main {
 	display: flex;
 	flex-wrap: wrap;
+	width: 1220px;
+	margin: 0 auto;
 }
 .profile {
 	display: flex;
-	justify-content: center;
+	/*justify-content: center;*/
 	width: 100%;
-	height: 40%;
+	height: 270px;
 	background-color: beige;
 }
 .profile-image {
+	background-image: url("../assets/icon.png");
 	width: 30%;
+	height: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .profile-text {
-	width: 50%;
+	width: 70%;
 
 	font-size: 1.3em;
 	text-align: justify;
 	line-height: 1.5em;
+	padding: 20px;
 }
 /* Personal information */
 
@@ -50,21 +70,23 @@ a {
 .contacts-info {
 	display: flex;
 	flex-direction: column;
-	width: 40%;
+	width: 50%;
 	height: 100%;
 	padding-left: 20px;
 	background-color: rgb(249, 226, 226);
 }
 .education-info {
+	width: 50%;
 	height: 50%;
 }
 .contact-info {
+	width: 50%;
 	height: 50%;
 }
 .professional-info {
 	display: flex;
 	flex-direction: column;
-	width: 60%;
+	width: 50%;
 	height: 100%;
 	background-color: rgb(238, 216, 188);
 }
@@ -73,22 +95,25 @@ a {
 	width: 100%;
 }
 .coding-example {
-	width: 60%;
-	height: 100%;
-	background-color: rgb(244, 220, 244);
-	padding-left: 20px;
+	width: 70%;
+	height: 100vh;
+
+	padding: 20px;
 }
 .coding-projets {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	width: 40%;
+	width: 30%;
 	height: 100%;
 	background-color: rgb(233, 200, 205);
 }
 .page-info {
-	background-color: rgb(195, 228, 195);
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	width: 1220px;
+	height: 70px;
+	margin: 0 auto;
 }
