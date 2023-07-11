@@ -27,7 +27,7 @@ a {
 	width: 100%;
 	justify-content: space-around;
 }
-.navigation__item a {
+.navigation__item {
 	font-size: 24px;
 }
 .container-main {
