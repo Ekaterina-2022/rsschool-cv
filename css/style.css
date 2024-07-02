@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	color: #f2ea83;
+	list-style-type: circle;
+}
+h1,
+h2,
+h3 {
+	text-transform: uppercase;
+}
+hr {
+	width: 90%;
+	border-color: #f2ea83;
+}
+p {
+	font-size: 18px;
+}
+a {
+	position: relative;
+	text-decoration: none;
+	color: #f4a799;
+	cursor: pointer;
+	line-height: 1;
+}
+a:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 1px;
+	background-color: #f2ea83;
+	content: "";
+	transition: width 0.4s ease-out;
+}
+
+a:hover:after,
+a:focus:after {
+	width: 100%;
+}
+.container__style {
+	width: 100%;
+	background: #23074d;
+	background: linear-gradient(to right, #cc5333, #23074d);
+	padding: 40px 0;
+}
+.list__contacts li {
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+}
+.title__paragraph {
+	font-size: 1.6rem;
+}
+.navigation {
+	display: flex;
+	list-style: none;
+	width: 40%;
+	justify-content: space-between;
+	margin-left: auto;
+}
+.navigation__item {
+	font-size: 1.5em;
+	color: #f2ea83;
+}
+.container-main {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1220px;
+	width: 100%;
+	margin: 0 auto;
+}
+.profile {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+.profile-image {
+	background-image: url("../assets/icon.png");
+	width: 40%;
+	height: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.profile-text {
+	width: 60%;
+	text-align: justify;
+	line-height: 1.5;
+	padding: 20px;
+}
+.profile-text p {
+	font-size: 1.3rem;
+}
+/* Personal information */
+
+.personal-info {
+	display: flex;
+	width: 100%;
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
+	flex-wrap: wrap;
+	padding-top: 100px;
+}
+.contacts-info {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding-left: 20px;
+}
+.text__main {
+	font-size: 1.2rem;
+	padding-left: 20px;
+}
+.contact-info,
+.education-info {
+	width: 70%;
+	height: 50%;
+}
+.professional-info {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: 60%;
+}
+.coding-info {
+	display: flex;
+	width: 100%;
+	padding-top: 20px;
+}
+.coding-example {
+	width: 70%;
+	height: 100vh;
+}
+.coding-projets {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	width: 30%;
+	height: 100%;
+}
+.experience__list {
+	list-style: none;
+}
+.page-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1220px;
+	width: 100%;
+	height: 70px;
+	margin: 0 auto;
+}
