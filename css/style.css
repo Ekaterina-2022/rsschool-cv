@@ -55,8 +55,15 @@ a:focus:after {
 	display: flex;
 	list-style: none;
 	width: 40%;
-	justify-content: space-between;
 	margin-left: auto;
+}
+.navigation__list {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.navigation__list li {
+	list-style: none;
 }
 .navigation__item {
 	font-size: 1.5em;
